@@ -14,9 +14,9 @@ function FormComponent() {
                     <label className='form-label' >User Name</label>
                     <div>
                         <input type='text' className='form-control'name='username'></input>
-                        <div>
+                        {/* <div>
                             <span className='text-danger'>User Name Required</span>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className='mb-3'>
