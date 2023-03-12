@@ -23,9 +23,9 @@ function FormComponent() {
                     <label  className='form-label'for='password'>Password</label>
                     <div>
                         <input className='form-control'type='password' name='password'></input>
-                        <div>
+                        {/* <div>
                             <span className='text-danger'>Password Required</span>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className='mb-3'>
